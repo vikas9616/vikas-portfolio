@@ -2,31 +2,36 @@ import ProjectCard from "../components/ProjectCard";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
+// ✅ Importing images properly
+import smcImg from "../assets/smc.png";
+import chatAppImg from "../assets/chatapp.png";
+
 const Projects = () => {
   const projects = [
     {
-  title: "ConnectHub – Smart Contact Manager",
-  description:
-    "Developed a Smart Contact Manager web application that allows users to securely add, store, and manage contact details. Implemented user authentication, contact categorization, and CRUD operations with a clean and intuitive interface for seamless contact management.",
-  tags: [
-    "Java",
-    "Spring Boot",
-    "Thymeleaf",
-    "MySQL",
-    "Spring Security",
-    "REST API",
-    "Bootstrap",
-  ],
-  githubLink: "https://github.com/vikas9616/ConnectHub",
-  imageUrl: "src/assets/smc.png", // Add your image URL here
-},
+      title: "ConnectHub – Smart Contact Manager",
+      description:
+        "Developed a Smart Contact Manager web application that allows users to securely add, store, and manage contact details. Implemented user authentication, contact categorization, and CRUD operations with a clean and intuitive interface for seamless contact management.",
+      tags: [
+        "Java",
+        "Spring Boot",
+        "Thymeleaf",
+        "MySQL",
+        "Spring Security",
+        "REST API",
+        "Bootstrap",
+      ],
+      githubLink: "https://github.com/vikas9616/ConnectHub",
+      imageUrl: smcImg, // ✅ fixed
+    },
 
     {
       title: "Chat Application",
-      description: "Developed ChatApp, a real-time chat platform using Spring Boot (WebSocket) and React, enabling low-latency one-to-one and group messaging with a responsive UI and scalable backend.",
+      description:
+        "Developed ChatApp, a real-time chat platform using Spring Boot (WebSocket) and React, enabling low-latency one-to-one and group messaging with a responsive UI and scalable backend.",
       tags: ["Java", "Spring Boot", "WebSocket", "React", "MongoDB", "Docker"],
       githubLink: "https://github.com/vikas9616/chat-application",
-      imageUrl: "src/assets/chatapp.png", // Add your image URL here
+      imageUrl: chatAppImg, // ✅ fixed
     },
     {
       title: "Salon Booking Microservices Platform",
@@ -42,7 +47,8 @@ const Projects = () => {
         "Docker",
       ],
       githubLink: "https://github.com/vikas9616/microservice",
-      imageUrl: "https://img.freepik.com/free-photo/computer-program-coding-screen_53876-138060.jpg?semt=ais_hybrid&w=740&q=80",
+      imageUrl:
+        "https://img.freepik.com/free-photo/computer-program-coding-screen_53876-138060.jpg?semt=ais_hybrid&w=740&q=80",
     },
   ];
 
