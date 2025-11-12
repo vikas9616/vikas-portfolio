@@ -5,27 +5,28 @@ import { motion } from "framer-motion";
 const Projects = () => {
   const projects = [
     {
-      title: "Patna Metro Route Finder Voice Assistant",
-      description:
-        "Developed a first-of-its-kind Patna Metro Route Finder web application, providing users with accurate live metro routes, fare calculation, and distance details. Integrated an intelligent chatbot assistant to offer seamless query support and enhance user experience",
-      tags: [
-        "Java",
-        "Spring Boot",
-        "Monolithic",
-        "React.js",
-        "MongoDB",
-        "Docker",
-        "AWS",
-      ],
-      githubLink: "https://github.com/vikas9616/Patna-Metro",
-      imageUrl: "https://your-image-url.com/patna-metro.jpg", // Add your image URL here
-    },
+  title: "ConnectHub – Smart Contact Manager",
+  description:
+    "Developed a Smart Contact Manager web application that allows users to securely add, store, and manage contact details. Implemented user authentication, contact categorization, and CRUD operations with a clean and intuitive interface for seamless contact management.",
+  tags: [
+    "Java",
+    "Spring Boot",
+    "Thymeleaf",
+    "MySQL",
+    "Spring Security",
+    "REST API",
+    "Bootstrap",
+  ],
+  githubLink: "https://github.com/vikas9616/ConnectHub",
+  imageUrl: "src/assets/smc.png", // Add your image URL here
+},
+
     {
-      title: "ByteBuzz Chat App",
-      description: "Developed Bytebuzz, a real-time chat platform using Spring Boot (WebSocket) and React, enabling low-latency one-to-one and group messaging with a responsive UI and scalable backend.",
+      title: "Chat Application",
+      description: "Developed ChatApp, a real-time chat platform using Spring Boot (WebSocket) and React, enabling low-latency one-to-one and group messaging with a responsive UI and scalable backend.",
       tags: ["Java", "Spring Boot", "WebSocket", "React", "MongoDB", "Docker"],
-      githubLink: "https://github.com/vikas9616/bytebuzz-chat-app",
-      imageUrl: "https://your-image-url.com/bytebuzz.jpg", // Add your image URL here
+      githubLink: "https://github.com/vikas9616/chat-application",
+      imageUrl: "src/assets/chatapp.png", // Add your image URL here
     },
     {
       title: "Salon Booking Microservices Platform",
@@ -41,7 +42,7 @@ const Projects = () => {
         "Docker",
       ],
       githubLink: "https://github.com/vikas9616/microservice",
-      imageUrl: "https://your-image-url.com/microservice.jpg",
+      imageUrl: "https://img.freepik.com/free-photo/computer-program-coding-screen_53876-138060.jpg?semt=ais_hybrid&w=740&q=80",
     },
   ];
 

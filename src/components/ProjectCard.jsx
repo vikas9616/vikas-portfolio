@@ -5,7 +5,7 @@ import { FiGithub } from "react-icons/fi";
 const ProjectCard = ({
   title,
   description,
-  tags = [],
+  // tags = [],
   githubLink,
   imageUrl,
 }) => {
